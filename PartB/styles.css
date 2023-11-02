@@ -1,0 +1,58 @@
+body {
+    margin: 50px; 
+    text-align: center;
+  font-family: sans-serif;
+  background: #ded9ee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(66, 133, 244);
+    box-shadow: 0 2px 15px rgb(1, 100, 149);
+    }
+
+.label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#time {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(199, 223, 231);
+}
+
+#datepicker {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
